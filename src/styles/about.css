@@ -1,0 +1,50 @@
+.about-sec-0{
+    background: url("../assets/aboutuspage/about01.png");
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.about-0-head{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about-0-desc{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.about-txt{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.about-txt-head{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about-img{
+    width:400px; 
+    height:280px
+}
+@media screen and (max-width:768px){
+    .about-sec-0{
+        height: 300px;
+    }
+    .about-img{
+        width: 300px;
+    }
+}

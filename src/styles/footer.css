@@ -1,0 +1,14 @@
+.footer{
+    background: #000;
+    height: 380px;
+    color: white;
+}
+.phone-icon{
+    height: 30px;
+    margin-right: 15px;
+}
+@media screen and (max-width:768px){
+    .footer{
+        height: auto;
+    }
+}

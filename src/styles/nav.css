@@ -1,0 +1,6 @@
+.nav-bar{
+    background: black;
+}
+.nav-links:hover{
+    color: rgb(2, 2, 130);
+}

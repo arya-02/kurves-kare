@@ -1,0 +1,99 @@
+.hero-section{
+    background: url("../assets/homepage/homebg1.png");
+    width: 100%;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.hero-section h4{
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 260px;
+}
+.hero-section-2{
+    background: url("../assets/homepage/HomeSlab1.png");
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.home-about-head{
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.home-about-desc{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hero-section-3{
+    background: url("../assets/homepage/homebg02.png");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.hero-3-head{
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero-3-desc{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.home-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 200px;
+    background: #128C7E;
+    border: none;
+    width: 300px;
+    height: 90px;
+}
+@media screen and (max-width: 768px) {
+    .hero-section h4{
+        font-size: 20px;
+    }
+    .hero-section-2{
+        height: 90px;
+    }
+    .home-about-head{
+        font-size: 12px;
+    }
+    .hero-section-3{
+        height: 140px;
+    }
+    .hero-3-head{
+        font-size: 12px;
+    }
+    .hero-3-desc{
+        font-size: 10px;
+    }
+}
